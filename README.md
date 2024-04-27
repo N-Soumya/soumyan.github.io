@@ -1,4 +1,4 @@
-# Data Scientist
+# Portfolio
 
 #### Technical Skills: C++, C#, GoLang, Python, SQL, HTML, CSS
 
