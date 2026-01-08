@@ -36,16 +36,22 @@
     margin-bottom: 20px;
   }
   .skill-pill {
-    background-color: #161b22;
-    border: 2px solid #58a6ff; /* Blue border for visibility */
+    background-color: #161b22 !important;
+    border: 2px solid #58a6ff !important;
     border-radius: 15px;
     padding: 6px 14px;
     font-size: 0.9em;
     color: #FFFFFF !important;
     font-weight: bold !important;
   }
+  .skill-category {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+    color: #79c0ff !important; /* Brighter blue for category titles */
+  }
 
-  /* Project Tile Styles - High contrast borders */
+  /* Dark Project Tiles */
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -57,14 +63,16 @@
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
-    background: #0d1117;
+    background: #0d1117 !important;
     transition: 0.3s;
   }
   .project-tile:hover {
-    border-color: #FFFFFF;
+    border-color: #FFFFFF !important;
     transform: translateY(-5px);
   }
-  .project-info h3 { color: #58a6ff !important; }
+  .project-image { width: 100%; height: 160px; object-fit: cover; }
+  .project-info { padding: 15px; }
+  .project-info h3 { color: #58a6ff !important; margin: 0 0 8px 0; }
   .project-info p { color: #FFFFFF !important; }
 </style>
 
