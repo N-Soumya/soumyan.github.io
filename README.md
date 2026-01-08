@@ -34,7 +34,7 @@
 <div class="project-grid">
 
   <a href="./projects/tic-tac-toe" class="project-tile">
-    <img src="assets/images/tictactoe.jpg" class="project-image">
+    <img src="assets/images/tictactoe.png" class="project-image">
     <div class="project-info">
       <h3>AI Tic-Tac-Toe</h3>
       <p>Android app with Minimax AI & P2P networking[cite: 18, 22].</p>
