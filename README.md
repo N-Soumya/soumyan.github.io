@@ -92,6 +92,7 @@
     font-size: 0.85em;
     color: #0366d6;
     font-weight: 500;
+    font-color: #000000;
   }
   .skill-category {
     font-weight: bold;
