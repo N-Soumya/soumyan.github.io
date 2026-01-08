@@ -1,12 +1,3 @@
----
-layout: page
-title: AI-Driven Misère Tic-Tac-Toe
----
-
-To implement a dark theme for your project page, you need to set the global background to black and adjust the text and box colors to ensure high contrast and readability.
-
-Updated tic-tac-toe.md with Dark Theme
-Markdown
 
 ---
 layout: page
