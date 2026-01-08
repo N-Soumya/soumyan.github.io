@@ -4,34 +4,65 @@ title: High-Performance Accident Pattern Analysis Platform
 ---
 
 <style>
-  h1 { color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px; }
-  h2 { color: #2ecc71; margin-top: 30px; border-left: 5px solid #27ae60; padding-left: 10px; }
-  h3 { color: #2980b9; }
+  /* Global Visibility Fix for Dark Theme */
+  body {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+  }
+
+  /* Typography */
+  h1 { color: #2ecc71 !important; border-bottom: 2px solid #30363d; padding-bottom: 10px; font-weight: 800 !important; }
+  h2 { color: #27ae60 !important; margin-top: 30px; border-left: 5px solid #2ecc71; padding-left: 10px; font-weight: 800 !important; }
+  h3 { color: #58a6ff !important; font-weight: 800 !important; }
+  p, li, span, div { color: #FFFFFF !important; }
+  strong, b { color: #FFFFFF !important; font-weight: 900 !important; }
+
+  /* Buttons */
+  .btn-nav {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #21262d;
+    color: #58a6ff !important;
+    text-decoration: none;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .btn-nav:hover { border-color: #FFFFFF; }
+
+  /* Skill Badges */
   .tech-badge {
     display: inline-block;
-    background: #27ae60;
-    color: white;
+    background: #1b4332;
+    color: #2ecc71 !important;
     padding: 2px 10px;
     border-radius: 12px;
     font-size: 0.8em;
     margin-right: 5px;
     font-weight: bold;
+    border: 1px solid #2ecc71;
     margin-bottom: 5px;
   }
+
+  /* Box Styles for Dark Mode */
   .contribution-box {
-    background-color: #f4fdf4;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
     border-left: 6px solid #2ecc71;
     padding: 15px;
     margin: 20px 0;
     border-radius: 4px;
   }
   .viz-box {
-    background-color: #f0f7ff;
-    border-left: 6px solid #3498db;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-left: 6px solid #58a6ff;
     padding: 15px;
     margin: 20px 0;
     border-radius: 4px;
   }
+  hr { border-top: 1px solid #30363d; }
 </style>
 
 <a href="../../" style="
