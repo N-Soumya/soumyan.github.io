@@ -65,6 +65,19 @@ title: Quantum ML for Hemodynamic Prediction
 Investigated the intersection of <strong>Quantum Computing</strong> and <strong>Medical Physics</strong> by comparing Quantum Machine Learning (QML) and classical ML in predicting blood flow dynamics within a 3D Aorta model.
 </div>
 
+
+<a href="https://github.com/N-Soumya/Blood-Flow-Analysis.git" target="_blank" style="
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #238636;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 20px;
+">View on Github</a>
+
 ---
 
 ## 🛠 Key Research Contributions
