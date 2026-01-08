@@ -52,3 +52,5 @@ title: AI-Driven Misère Tic-Tac-Toe
 * The board is a 3×3 grid.
 * Two players take turns placing their symbol (X or O).
 * **The Loss Condition**: The player who makes three in a row (horizontally, vertically, or diagonally) **LOSES**.
+
+[← Back to Project Tiles](../../)
