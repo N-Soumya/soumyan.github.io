@@ -1,5 +1,5 @@
 # Soumya Nagendra
-**MS in Computer Science @ ASU** | Cumulative GPA: 3.74 [cite: 11]
+**MS in Computer Science - ASU** | Cumulative GPA: 3.74 
 
 <style>
   .project-grid {
@@ -30,6 +30,11 @@
   .project-info h3 { margin: 0 0 8px 0; color: #0366d6; }
 </style>
 
+## 🎓 Education
+* **MS in Computer Science**, Arizona State University-USA (May 2026).
+* **BE in Computer Science**, KLE Technological University-India (2024).
+
+
 ## 🚀 Projects
 <div class="project-grid">
 
@@ -37,7 +42,7 @@
     <img src="assets/tictactoe.png" class="project-image">
     <div class="project-info">
       <h3>AI Tic-Tac-Toe</h3>
-      <p>Android app with Minimax AI & P2P networking[cite: 18, 22].</p>
+      <p>Android app with Minimax AI & P2P networking.</p>
     </div>
   </a>
 
@@ -45,7 +50,7 @@
     <img src="assets/accidents.png" class="project-image">
     <div class="project-info">
       <h3>Accident Analysis</h3>
-      <p>Full-stack geospatial platform for safety insights[cite: 23, 26].</p>
+      <p>Full-stack geospatial platform for safety insights.</p>
     </div>
   </a>
 
@@ -53,12 +58,9 @@
     <img src="assets/images/quantum.jpg" class="project-image">
     <div class="project-info">
       <h3>Quantum ML</h3>
-      <p>Quantum-enhanced decision trees on AWS Braket[cite: 28, 31].</p>
+      <p>Quantum-enhanced decision trees on AWS Braket.</p>
     </div>
   </a>
 
 </div>
 
-## 🎓 Education
-* **MS in Computer Science**, Arizona State University (Exp. 2026)[cite: 11].
-* **BE in Computer Science**, KLE Technological University (2024)[cite: 11].
