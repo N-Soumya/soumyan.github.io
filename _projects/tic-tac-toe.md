@@ -45,8 +45,9 @@ title: AI-Driven Misère Tic-Tac-Toe
 ">← Back to Projects</a>
 
 # AI-Driven Misère Tic-Tac-Toe
-**ASU Mobile Computing Project** <div class="highlight-box">
-A feature-rich Android application implementing the <strong>Misère variant</strong> of Tic-Tac-Toe, where the objective is inverted: the player who makes three in a row loses. Built with <strong>Kotlin</strong>, <strong>Jetpack Compose</strong>, and modern Android architecture patterns.
+**ASU Mobile Computing Project** 
+<div class="highlight-box">
+  A feature-rich Android application implementing the <strong>Misère variant</strong> of Tic-Tac-Toe, where the objective is inverted: the player who makes three in a row loses. Built with <strong>Kotlin</strong>, <strong>Jetpack Compose</strong>, and modern Android architecture patterns.
 </div>
 
 ---
