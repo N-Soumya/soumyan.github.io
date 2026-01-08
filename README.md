@@ -3,27 +3,18 @@
 [Email](mailto:soumyanagendra29@gmail.com)
 
 <style>
-  /* Global page background and text color */
-  body {
-    background-color: #0d1117;
-    color: #c9d1d9;
+  /* Global Page Styles - Fixing Visibility */
+  body { 
+    background-color: #0d1117; 
+    color: #c9d1d9; /* Light gray text for high visibility */
   }
-
-  /* Typography Colors */
-  h1, h2 { color: #58a6ff; }
+  
+  h1, h2, h3 { color: #58a6ff !important; } /* Bright blue for headers */
+  p, li, span { color: #c9d1d9 !important; } /* Soft white for body text */
+  
   hr { border-top: 1px solid #30363d; }
 
-  /* Skill Styles */
-  .skill-category {
-    font-weight: bold;
-    margin-top: 15px;
-    display: block;
-  }
-  /* Color-coded categories to prevent monotony */
-  .cat-lang { color: #ff7b72; }    /* Soft Red */
-  .cat-web { color: #79c0ff; }     /* Soft Blue */
-  .cat-cloud { color: #7ee787; }   /* Soft Green */
-
+  /* Skill Pill Styles */
   .skill-container {
     display: flex;
     flex-wrap: wrap;
@@ -36,16 +27,11 @@
     border-radius: 15px;
     padding: 4px 12px;
     font-size: 0.85em;
-    color: #c9d1d9;
+    color: #58a6ff !important; /* Blue text for skills */
     font-weight: 500;
-    transition: 0.3s;
-  }
-  .skill-pill:hover {
-    border-color: #58a6ff;
-    background-color: #21262d;
   }
 
-  /* Project Grid Styles */
+  /* Project Tile Styles */
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -57,7 +43,6 @@
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
-    color: #c9d1d9;
     transition: 0.3s;
     background: #161b22;
   }
@@ -66,15 +51,8 @@
     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
     border-color: #58a6ff;
   }
-  .project-image {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-    border-bottom: 1px solid #30363d;
-  }
-  .project-info { padding: 15px; }
-  .project-info h3 { margin: 0 0 8px 0; color: #58a6ff; }
-  .project-info p { font-size: 0.9em; color: #8b949e; }
+  .project-info h3 { color: #58a6ff; margin: 0 0 8px 0; }
+  .project-info p { color: #8b949e; font-size: 0.9em; }
 </style>
 
 ## 🎓 Education
