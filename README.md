@@ -118,7 +118,7 @@
 <div class="project-grid">
 
   <a href="./projects/tic-tac-toe" class="project-tile">
-    <img src="assetstictactoe.png" class="project-image">
+    <img src="assets/tictactoe.png" class="project-image">
     <div class="project-info">
       <h3>AI Tic-Tac-Toe</h3>
       <p>Android app with Minimax AI & P2P networking.</p>
@@ -126,7 +126,7 @@
   </a>
 
   <a href="./projects/accident-analysis" class="project-tile">
-    <img src="assetsaccidents.png" class="project-image">
+    <img src="assets/accidents.png" class="project-image">
     <div class="project-info">
       <h3>Accident Analysis</h3>
       <p>Full-stack geospatial platform with spatial indexing.</p>
