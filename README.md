@@ -182,7 +182,7 @@
   
 
   <a href="./projects/quantum-ml" class="project-tile">
-    <img src="assets/images/quantum.jpg" class="project-image">
+    <img src="assets/blood.png" class="project-image">
     <div class="project-info">
       <h3>Quantum ML</h3>
       <p>Quantum-enhanced decision trees on AWS Braket.</p>
