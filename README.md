@@ -3,18 +3,32 @@
 [Email](mailto:soumyanagendra29@gmail.com)
 
 <style>
-  /* Global Page Styles - Fixing Visibility */
-  body { 
-    background-color: #0d1117; 
-    color: #c9d1d9; /* Light gray text for high visibility */
+  /* Force global background and text colors */
+  body {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
   }
-  
-  h1, h2, h3 { color: #58a6ff !important; } /* Bright blue for headers */
-  p, li, span { color: #c9d1d9 !important; } /* Soft white for body text */
-  
+
+  /* Make all standard text white and visible */
+  p, li, span, a, div {
+    color: #FFFFFF !important;
+  }
+
+  /* Make bold text pop with extra weight */
+  strong, b {
+    color: #FFFFFF !important;
+    font-weight: 900 !important;
+  }
+
+  /* Headers in a bright, high-contrast blue */
+  h1, h2, h3 {
+    color: #58a6ff !important;
+    font-weight: 800 !important;
+  }
+
   hr { border-top: 1px solid #30363d; }
 
-  /* Skill Pill Styles */
+  /* Skill Pill Styles - Light borders to define them */
   .skill-container {
     display: flex;
     flex-wrap: wrap;
@@ -23,15 +37,15 @@
   }
   .skill-pill {
     background-color: #161b22;
-    border: 1px solid #30363d;
+    border: 2px solid #58a6ff; /* Blue border for visibility */
     border-radius: 15px;
-    padding: 4px 12px;
-    font-size: 0.85em;
-    color: #58a6ff !important; /* Blue text for skills */
-    font-weight: 500;
+    padding: 6px 14px;
+    font-size: 0.9em;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
   }
 
-  /* Project Tile Styles */
+  /* Project Tile Styles - High contrast borders */
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -39,20 +53,19 @@
     margin: 20px 0;
   }
   .project-tile {
-    border: 1px solid #30363d;
+    border: 2px solid #30363d;
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
+    background: #0d1117;
     transition: 0.3s;
-    background: #161b22;
   }
   .project-tile:hover {
+    border-color: #FFFFFF;
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-    border-color: #58a6ff;
   }
-  .project-info h3 { color: #58a6ff; margin: 0 0 8px 0; }
-  .project-info p { color: #8b949e; font-size: 0.9em; }
+  .project-info h3 { color: #58a6ff !important; }
+  .project-info p { color: #FFFFFF !important; }
 </style>
 
 ## 🎓 Education
