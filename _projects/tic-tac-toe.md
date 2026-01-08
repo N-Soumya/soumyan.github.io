@@ -2,6 +2,7 @@
 layout: page
 title: AI-Driven Misère Tic-Tac-Toe
 ---
+[← Back to Project Tiles](../../)
 
 # AI-Driven Misère Tic-Tac-Toe
 [cite_start]**ASU Mobile Computing Project** [cite: 19]
