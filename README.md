@@ -154,7 +154,7 @@
 
 <div class="project-grid">
 
-  <a href="./_projects/tic-tac-toe" class="project-tile">
+  <a href="./projects/tic-tac-toe" class="project-tile">
     <img src="assets/tictactoe.png" class="project-image">
     <div class="project-info">
       <h3>AI Tic-Tac-Toe</h3>
@@ -162,7 +162,7 @@
     </div>
   </a>
 
-  <a href="./_projects/accident-analysis" class="project-tile">
+  <a href="./projects/accident-analysis" class="project-tile">
     <img src="assets/accidents.png" class="project-image">
     <div class="project-info">
       <h3>Accident Analysis</h3>
@@ -172,7 +172,7 @@
 
   
 
-  <a href="./_projects/quantum-ml" class="project-tile">
+  <a href="./projects/quantum-ml" class="project-tile">
     <img src="assets/images/quantum.jpg" class="project-image">
     <div class="project-info">
       <h3>Quantum ML</h3>
