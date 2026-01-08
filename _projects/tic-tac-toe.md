@@ -52,10 +52,16 @@ title: AI-Driven Misère Tic-Tac-Toe
 
 ---
 
-<div class="nav-buttons">
-  <a href="../../" class="btn-nav btn-back">← Back to Projects</a>
-  <a href="https://github.com/N-Soumya/Misere-TicTacToe.git" target="_blank" class="btn-nav btn-github">View on GitHub</a>
-</div>
+<a href="https://github.com/N-Soumya/Misere-TicTacToe.git" style="
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0366d6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+">View on Github</a>
 
 ---
 
