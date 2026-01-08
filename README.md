@@ -1,30 +1,30 @@
 # Soumya Nagendra
-**MS in Computer Science @ Arizona State University** | [cite_start]GPA: 3.74 [cite: 11]  
+**MS in Computer Science @ Arizona State University** | [cite_start]GPA: 3.74[cite: 11]  
 [Email](mailto:soumyanagendra29@gmail.com) | [LinkedIn] | [GitHub]
 
 ---
 
 ## 🛠 Technical Skills
 * [cite_start]**Languages:** C++, Python, C#, GoLang, SQL, Kotlin[cite: 13].
-* [cite_start]**Web & Mobile:** JavaScript (Advanced), React, HTML, CSS [cite: 14][cite_start], Android Studio, Jetpack Compose[cite: 15].
+* [cite_start]**Web & Mobile:** JavaScript (Advanced), React, HTML, CSS[cite: 14][cite_start], Android Studio, Jetpack Compose[cite: 15].
 * [cite_start]**Cloud & Tools:** AWS, Kubernetes, Docker, Ansys Workbench, IBM Qiskit[cite: 15].
 * [cite_start]**Core:** Data Structures & Algorithms, OOP, Concurrency, Performance Optimization[cite: 16].
 
 ---
 
+<a name="projects-index"></a>
 ## 🚀 Projects Index
-*Click a project title to view its technical details.*
+*Click a project title to view its dedicated detail page.*
 
-1.  [AI-Driven Misere Tic-Tac-Toe](#project-1)
-2.  [High-Performance Accident Pattern Analysis Platform](#project-2)
-3.  [Quantum ML for Biomedical Flow Analysis](#project-3)
-4.  [NFT-DAO Integration & Custom Blockchain](#project-4)
-5.  [Facial Keypoint Detection (MobileNetV2)](#project-5)
+1. [AI-Driven Misere Tic-Tac-Toe](./projects/tic-tac-toe)
+2. [High-Performance Accident Pattern Analysis Platform](./projects/accident-analysis)
+3. [Quantum ML for Biomedical Flow Analysis](./projects/quantum-ml)
+4. [NFT-DAO Integration & Custom Blockchain](./projects/nft-dao)
+5. [Facial Keypoint Detection (MobileNetV2)](./projects/facial-keypoints)
 
 ---
 
-<a name="project-1"></a>
-### 🎮 AI-Driven Misere Tic-Tac-Toe
+### 🎮 [AI-Driven Misere Tic-Tac-Toe](./projects/tic-tac-toe)
 [cite_start]**Tech Stack:** Kotlin, Android Studio, Minimax Algorithm[cite: 15, 18, 22].
 * [cite_start]Engineered an AI agent using the **Minimax algorithm with alpha-beta pruning** for optimal gameplay[cite: 21].
 * [cite_start]Managed search tree complexity specifically for mobile resource constraints[cite: 21].
@@ -35,8 +35,7 @@
 
 ---
 
-<a name="project-2"></a>
-### 📊 High-Performance Accident Pattern Analysis Platform
+### 📊 [High-Performance Accident Pattern Analysis Platform](./projects/accident-analysis)
 [cite_start]**Tech Stack:** JavaScript, React, Geospatial Indexing[cite: 14, 23, 26].
 * [cite_start]Developed a full-stack data visualization platform to analyze accident severity and lighting conditions[cite: 26].
 * [cite_start]Optimized **geospatial queries** using indexing and efficient data structures to handle large transportation datasets[cite: 26].
@@ -46,23 +45,20 @@
 
 ---
 
-<a name="project-3"></a>
-### ⚛️ Quantum ML for Biomedical Flow Analysis
+### ⚛️ [Quantum ML for Biomedical Flow Analysis](./projects/quantum-ml)
 [cite_start]**Tech Stack:** AWS Braket, Python, IBM Qiskit, Ansys Workbench[cite: 13, 15, 31].
 * [cite_start]Built predictive models using **quantum-enhanced decision trees** on AWS Braket[cite: 31].
 * [cite_start]Reduced error rate to **MSE 0.019** compared to classical ML methods[cite: 31].
-* Analyzed blood flow inside the human aorta modeled via Ansys Workbench tools.
 * [cite_start]Engineered efficient quantum circuit designs to handle large-scale biomedical flow data[cite: 32].
 
 [↑ Back to Index](#projects-index)
 
 ---
 
-<a name="project-4"></a>
-### ⛓️ NFT-DAO Integration & Custom Blockchain
-**Tech Stack:** Ethereum, Smart Contracts, GoLang.
-* Integrated an NFT marketplace with a Decentralized Autonomous Organization (DAO).
-* Designed a **fair consensus algorithm** for decision-making that prevents party dominance via investment caps.
+### ⛓️ [NFT-DAO Integration & Custom Blockchain](./projects/nft-dao)
+[cite_start]**Tech Stack:** Ethereum, Smart Contracts, GoLang[cite: 13].
+* Integrated two blockchain applications: NFT marketplace and Decentralized Autonomous Organization (DAO).
+* Designed a fair algorithm for decision-making with investment caps to prevent party dominance.
 * Developed a modified DPoS consensus algorithm with a reputation system for Ethereum.
 * [cite_start]**Publication:** *A Fair and Scalable Consensus Algorithm for NFT-Based DAO*[cite: 44].
 
@@ -70,8 +66,7 @@
 
 ---
 
-<a name="project-5"></a>
-### 📸 Facial Keypoint Detection (MobileNetV2)
+### 📸 [Facial Keypoint Detection (MobileNetV2)](./projects/facial-keypoints)
 [cite_start]**Tech Stack:** MobileNet V2, CNN, Python[cite: 13, 48].
 * Used **MobileNetV2 architecture** to detect 15 facial key points, achieving **84% accuracy**.
 * Developed both a baseline single hidden layer neural network and an advanced CNN.
