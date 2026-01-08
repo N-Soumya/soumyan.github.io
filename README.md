@@ -133,7 +133,7 @@
     </div>
   </a>
 
-  </div>
+  
 
   <a href="./projects/quantum-ml" class="project-tile">
     <img src="assets/images/quantum.jpg" class="project-image">
