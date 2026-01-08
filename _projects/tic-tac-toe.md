@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: AI-Driven Misère Tic-Tac-Toe
