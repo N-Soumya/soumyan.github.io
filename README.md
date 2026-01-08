@@ -42,7 +42,7 @@
   </a>
 
   <a href="./projects/accident-analysis" class="project-tile">
-    <img src="assets/images/accident.jpg" class="project-image">
+    <img src="assets/accidents.png" class="project-image">
     <div class="project-info">
       <h3>Accident Analysis</h3>
       <p>Full-stack geospatial platform for safety insights[cite: 23, 26].</p>
