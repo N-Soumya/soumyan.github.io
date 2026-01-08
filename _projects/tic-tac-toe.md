@@ -3,42 +3,74 @@ layout: page
 title: AI-Driven Misère Tic-Tac-Toe
 ---
 
+To implement a dark theme for your project page, you need to set the global background to black and adjust the text and box colors to ensure high contrast and readability.
+
+Updated tic-tac-toe.md with Dark Theme
+Markdown
+
+---
+layout: page
+title: AI-Driven Misère Tic-Tac-Toe
+---
+
 <style>
-  h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-  h2 { color: #2980b9; margin-top: 30px; border-left: 5px solid #3498db; padding-left: 10px; }
-  h3 { color: #d35400; }
+  /* Global Page Styles */
+  body { 
+    background-color: #000000; 
+    color: #e0e0e0; 
+  }
+  
+  /* Typography */
+  h1 { color: #58a6ff; border-bottom: 2px solid #30363d; padding-bottom: 10px; }
+  h2 { color: #79c0ff; margin-top: 30px; border-left: 5px solid #58a6ff; padding-left: 10px; }
+  h3 { color: #ffa657; }
+  strong { color: #ffffff; }
+
+  /* Skill Badges */
   .tech-badge {
     display: inline-block;
-    background: #3498db;
+    background: #238636;
     color: white;
     padding: 2px 10px;
     border-radius: 12px;
     font-size: 0.8em;
     margin-right: 5px;
     font-weight: bold;
+    border: 1px solid #2ea043;
   }
+
+  /* Box Styles for Dark Mode */
   .highlight-box {
-    background-color: #f7f9fc;
-    border-left: 6px solid #3498db;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-left: 6px solid #58a6ff;
     padding: 15px;
     margin: 20px 0;
     border-radius: 4px;
+    color: #c9d1d9;
   }
   .rules-box {
-    background-color: #fff4e5;
-    border-left: 6px solid #e67e22;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-left: 6px solid #d29922;
     padding: 15px;
     margin: 20px 0;
     border-radius: 4px;
+    color: #c9d1d9;
   }
+
+  /* Link Styles */
+  a { color: #58a6ff; }
+  hr { border: 0; border-top: 1px solid #30363d; }
 </style>
 
 <a href="../../" style="
     display: inline-block;
     padding: 8px 16px;
-    background-color: #0366d6;
-    color: white;
+    background-color: #21262d;
+    color: #58a6ff;
     text-decoration: none;
+    border: 1px solid #30363d;
     border-radius: 5px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -52,14 +84,15 @@ title: AI-Driven Misère Tic-Tac-Toe
 
 ---
 
-<a href="https://github.com/N-Soumya/Misere-TicTacToe.git" style="
+<a href="https://github.com/N-Soumya/Misere-TicTacToe.git" target="_blank" style="
     display: inline-block;
     padding: 8px 16px;
-    background-color: #0366d6;
+    background-color: #238636;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    margin-left: 10px;
     margin-bottom: 20px;
 ">View on Github</a>
 
@@ -94,12 +127,12 @@ Implemented a robust peer-to-peer networking layer for device-to-device play.
 
 ## 🏗 Technologies Used
 <div style="margin-top: 10px;">
-  <span class="tech-badge">Kotlin</span>
-  <span class="tech-badge">Jetpack Compose</span>
-  <span class="tech-badge">Room DB</span>
+  <span class="tech-badge">Kotlin </span>
+  <span class="tech-badge">Jetpack Compose </span>
+  <span class="tech-badge">Room DB </span>
   <span class="tech-badge">Coroutines</span>
-  <span class="tech-badge">Bluetooth P2P</span>
-  <span class="tech-badge">Minimax</span>
+  <span class="tech-badge">Bluetooth P2P </span>
+  <span class="tech-badge">Minimax </span>
 </div>
 
 ---
