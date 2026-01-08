@@ -2,55 +2,101 @@
 layout: page
 title: AI-Driven Misère Tic-Tac-Toe
 ---
-[← Back to Project Tiles](../../)
+
+<style>
+  h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+  h2 { color: #2980b9; margin-top: 30px; border-left: 5px solid #3498db; padding-left: 10px; }
+  h3 { color: #d35400; }
+  .tech-badge {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  .highlight-box {
+    background-color: #f7f9fc;
+    border-left: 6px solid #3498db;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+  .rules-box {
+    background-color: #fff4e5;
+    border-left: 6px solid #e67e22;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+</style>
+
+<a href="../../" style="
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0366d6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+">← Back to Projects</a>
 
 # AI-Driven Misère Tic-Tac-Toe
-[cite_start]**ASU Mobile Computing Project** [cite: 19]
-
-[cite_start]A feature-rich Android application implementing the **Misère variant** of Tic-Tac-Toe, where the objective is inverted: the player who makes three in a row loses[cite: 18]. [cite_start]Built with **Kotlin**, **Jetpack Compose**, and modern Android architecture patterns[cite: 15].
+**ASU Mobile Computing Project** <div class="highlight-box">
+A feature-rich Android application implementing the <strong>Misère variant</strong> of Tic-Tac-Toe, where the objective is inverted: the player who makes three in a row loses. Built with <strong>Kotlin</strong>, <strong>Jetpack Compose</strong>, and modern Android architecture patterns.
+</div>
 
 ---
 
 ## 🚀 Key Features
-* [cite_start]**🤖 Intelligent AI Opponent**: Features three difficulty levels (Easy, Medium, and Hard)[cite: 21].
-* [cite_start]**📡 Bluetooth P2P Multiplayer**: Connect and play with friends on separate devices via serverless Bluetooth communication[cite: 22].
-* **📊 Persistent Game History**: A comprehensive history system using **Room Database** to track past games, outcomes, and difficulty levels.
-* **⚙️ Dynamic Settings**: Seamlessly switch between game modes and difficulty levels mid-game without resetting the board.
+* **🤖 Intelligent AI Opponent**: Features three difficulty levels: Easy, Medium, and Hard.
+* **📡 Bluetooth P2P Multiplayer**: Connect and play via serverless Bluetooth communication.
+* **📊 Persistent Game History**: Uses **Room Database** to track past games and outcomes.
+* **⚙️ Dynamic Settings**: Seamlessly switch modes and difficulty levels mid-game.
 
 ---
 
 ## 🛠 Technical Implementation
 
 ### AI Engine (Minimax & Alpha-Beta Pruning)
-[cite_start]Engineered an AI agent using the **Minimax algorithm with Alpha-Beta pruning** to achieve optimal gameplay[cite: 21].
-* [cite_start]**Search Tree Complexity**: Optimized to manage mobile hardware resource constraints[cite: 21].
-* **Misère Evaluation**: Unlike traditional Tic-Tac-Toe, the evaluation function is inverted (+10 for forcing an opponent's 3-in-a-row) to ensure the AI never loses in Hard mode.
+Engineered an AI agent using the **Minimax algorithm with Alpha-Beta pruning** for optimal gameplay.
+* **Search Tree Complexity**: Optimized to manage mobile hardware resource constraints.
+* **Misère Evaluation**: Inverted evaluation (+10 for forcing opponent's 3-in-a-row) ensures the AI never loses in Hard mode.
 
 ### P2P Networking Layer
-[cite_start]Implemented a robust peer-to-peer networking layer for device-to-device play[cite: 22].
-* [cite_start]**Technology**: Utilized **Bluetooth Classic** for serverless connectivity[cite: 22].
-* [cite_start]**Synchronization**: Developed custom **JSON protocols** for real-time game state synchronization and turn-based logic handling[cite: 22].
+Implemented a robust peer-to-peer networking layer for device-to-device play.
+* **Technology**: Utilized **Bluetooth Classic** for serverless connectivity.
+* **Synchronization**: Developed custom **JSON protocols** for real-time state synchronization.
 
 ### Modern Android Architecture
-* [cite_start]**Framework**: 100% **Kotlin** with **Jetpack Compose** for a declarative, reactive UI[cite: 13, 15].
-* **Pattern**: Follows **MVVM (Model-View-ViewModel)** architecture to separate business logic from UI state.
-* **Concurrency**: Leveraged **Kotlin Coroutines and Flow** for asynchronous operations, such as database queries and network messaging.
+* **Framework**: 100% **Kotlin** with **Jetpack Compose**.
+* **Pattern**: Follows **MVVM** architecture to separate logic from UI state.
+* **Concurrency**: Leveraged **Kotlin Coroutines and Flow** for reactive data streams.
 
 ---
 
-## 🛠 Technologies Used
-* [cite_start]**Language**: Kotlin [cite: 13]
-* [cite_start]**UI**: Jetpack Compose, Material 3 [cite: 15]
-* **Architecture**: MVVM, Repository Pattern
-* [cite_start]**Local Storage**: Room (SQLite) [cite: 15]
-* [cite_start]**Networking**: Bluetooth Classic, Kotlin Serialization (JSON) [cite: 22]
-* [cite_start]**Algorithms**: Minimax, Alpha-Beta Pruning [cite: 21]
+## 🏗 Technologies Used
+<div style="margin-top: 10px;">
+  <span class="tech-badge">Kotlin</span>
+  <span class="tech-badge">Jetpack Compose</span>
+  <span class="tech-badge">Room DB</span>
+  <span class="tech-badge">Coroutines</span>
+  <span class="tech-badge">Bluetooth P2P</span>
+  <span class="tech-badge">Minimax</span>
+</div>
 
 ---
 
 ## 📖 Game Rules
-* The board is a 3×3 grid.
-* Two players take turns placing their symbol (X or O).
-* **The Loss Condition**: The player who makes three in a row (horizontally, vertically, or diagonally) **LOSES**.
+<div class="rules-box">
+  <ul>
+    <li>The board is a 3×3 grid.</li>
+    <li>Two players take turns placing their symbol (X or O).</li>
+    <li><strong>The Loss Condition</strong>: The player who makes three in a row (horizontally, vertically, or diagonally) <strong>LOSES</strong>.</li>
+  </ul>
+</div>
 
 [← Back to Project Tiles](../../)
