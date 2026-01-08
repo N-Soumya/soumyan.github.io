@@ -52,6 +52,13 @@ title: AI-Driven Misère Tic-Tac-Toe
 
 ---
 
+<div class="nav-buttons">
+  <a href="../../" class="btn-nav btn-back">← Back to Projects</a>
+  <a href="https://github.com/N-Soumya/Misere-TicTacToe.git" target="_blank" class="btn-nav btn-github">View on GitHub</a>
+</div>
+
+---
+
 ## 🚀 Key Features
 * **🤖 Intelligent AI Opponent**: Features three difficulty levels: Easy, Medium, and Hard.
 * **📡 Bluetooth P2P Multiplayer**: Connect and play via serverless Bluetooth communication.
